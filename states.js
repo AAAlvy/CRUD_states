@@ -1,6 +1,6 @@
 //actual data
 
-module.exports = [
+const states = [
   {
     name: 'New York',
     visit_year: '1978-04-27',
@@ -63,14 +63,11 @@ module.exports = [
   },
 ];
 
-const state = {
-  name: 'Iowa',
-  visit_year: '1980-12-22',
-  capital: 'Des Moines',
-  population: 3134693
-};
+// const state = {
+//   name: 'Iowa',
+//   visit_year: '1980-12-22',
+//   capital: 'Des Moines',
+//   population: 3134693
+// };
 
-module.exports = {
-  states,
-  state
-};
+module.exports = states
